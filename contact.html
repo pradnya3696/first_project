@@ -1,0 +1,74 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="contact_style.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="menu.js"></script>
+
+</head>
+
+<body>
+
+<!-- Navigtion style -->
+  <div class="navbar">
+    <img src="C://Users//pradn//OneDrive//Desktop//Project//images//logo1.png">
+          <div class="navbar-right">                 
+            <a href="index.html">Home</a>
+             <a href="menu.html">Menu</a>
+             <a class="active"  href="contact.html">Contact</a>
+             <a href="about.html">About</a>        
+  </div>
+</div>
+
+<!-- Contact form style -->
+  <div class="contact_container">
+  <div class="wrap_contact">
+    <form class="contact_form" id="form" action="/" method="GET">  
+      <span class="form_title">
+        Send Us A Message
+      </span>
+      <br>
+      <label class="form_label" for="first-name">Tell US YOUR NAME *</label>
+      <div class="wrap_placeholders divide_placeholders">
+      <input type="text" id="fname" class="wrap_input" name="firstname" placeholder="First name" required>
+      </div>
+      <div class="wrap_placeholders divide_placeholders">
+      <input type="text" id="lname" class="wrap_input" name="lastname" placeholder="Last name" required>
+      </div>
+
+      <label class="form_label" for="email">ENTER YOUR EMAIL *</label>
+      <div class="wrap_placeholders">
+      <input type="text" id="email" class="wrap_input" name="email" placeholder="Eg.example@email.com" required>
+      </div>
+
+      <label class="form_label" for="phonenumber">ENTER PHONE NUMBER</label>
+      <div class="wrap_placeholders">
+      <input type="text" id="phone" class="wrap_input" name="phone" placeholder="Eg. +91 00000 00000">
+      </div>
+
+      <label class="form_label" for="message">MESSAGE *</label>
+      <div class="wrap_placeholders">
+      <textarea id="message" class="wrap_input" name="message" placeholder="Write us a message" spellcheck="false" required></textarea>
+      </div>
+
+      <div>
+      <button class="contact_form_button" onclick="validate()">Submit</button>
+      </div>    
+    </form>
+
+    <div class="contact_background " style="background-image: url('C://Users//pradn//OneDrive//Desktop//Project//images//contact_bg.jpg');">
+
+
+    </div>
+    
+  </div>
+  </div>
+
+      <footer>
+      Copyright @SJ's Kitchen
+    </footer>
+<script src="formValidate.js"></script>
+
+      </body>
+</html>
+

@@ -1,0 +1,124 @@
+* {
+  margin:0;
+  box-sizing: border-box;
+  font-family: helvetica;
+}
+
+button{
+  border: none;
+}
+
+.contact_form_button{
+  height: 50px;
+  border-radius: 2px;
+  background: #00ad5f;
+  /*font-family: Montserrat-Bold;*/
+  color: #fff;
+  line-height: 1.2;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.contact_container{
+  width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 65px;
+    background: #d0e1eb;
+}
+
+.wrap_contact{
+    width: 1120px;
+    background: #fff;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    flex-direction: row-reverse;
+    border-radius: 26px;
+}
+
+.contact_form{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 56px 55px 63px 55px;
+}
+
+.form_title{
+    width: 100%;
+    display: block;
+    /*font-family: Poppins-Regular;*/
+    font-size: 30px;
+    color: #333333;
+    line-height: 1.2;
+    text-align: center;
+    padding-bottom: 33px;
+}
+.form_label{
+    /*font-family: Poppins-Regular;*/
+    font-size: 12px;
+    color: #555555;
+    line-height: 1.5;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 55px;
+    border: 1px solid #e6e6e6;
+    border-bottom: none;
+    padding: 10px 25px;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+.wrap_placeholders{
+    width: 100%;
+    position: relative;
+    border: 1px solid #e6e6e6;
+}
+
+.divide_placeholders{
+  width: 50%;
+}
+
+.wrap_input{
+  width: 100%;
+  background: transparent;
+  /*font-family: Poppins-Regular;*/
+  font-size: 18px;
+  color: #666666;
+  line-height: 1.2;
+  padding: 0 25px;
+}
+
+input.wrap_input{
+  height: 55px;
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+.contact_background{
+  width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    padding: 30px 15px 0px 15px;
+}
+
+input[type=text]:focus {
+ background-color: #F0FFFF;
+}
+
