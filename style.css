@@ -105,6 +105,9 @@ position: absolute;
     /*opacity: 30%;*/
 }
 
+.container_menu img{
+  width: 100%;
+}
 
 .box{
     display: inline-flex;
