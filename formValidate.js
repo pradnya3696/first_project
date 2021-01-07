@@ -1,25 +1,24 @@
+// const form = document.getElementById("form");
 
+// form.addEventListener('submit', (e) => {
+// 	e.preventDefault();
 
-
-const form = document.getElementById("form");
-const firstName = document.getElementById("fname").value;
-const lastName = document.getElementById("lname").value;
-const email = document.getElementById("email").value;
-const phoneNumber = document.getElementById("phone").value;
+// 	validate();
+// });
 
 const nameRegex = /^[a-zA-Z ]+$/;
 const emailRegex = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 const phoneRegex = /^[0-9]{10}$/;
 
-form.addEventListener('submit', (e) => {
-	e.preventDefault();
 
-	validate();
-});
+const firstName = document.getElementById("fname").value;
+const lastName = document.getElementById("lname").value;
+const email = document.getElementById("email").value;
+const phoneNumber = document.getElementById("phone").value;
 
 function validate(){
 
-if (!nameRegex.test(firstName) && firstName == null && firstName == ""){
+if (!nameRegex.test(firstName)){
 	alert('Enter firstname with letters only');
 }
 
