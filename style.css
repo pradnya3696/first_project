@@ -105,18 +105,17 @@ position: absolute;
     /*opacity: 30%;*/
 }
 
-.container_menu img{
+/* .container_menu img{
   width: 100%;
-}
+} */
 
-.box{
-    display: inline-flex;
-    /* float: left; */
-    width: 300px;
-    height: 300px;
-    padding: 59px;
-    /*padding-left: 110px;*/
-    margin-top: 50px; 
+.box {
+  display: inline-flex;
+  width: 300px;
+  height: 300px;
+  padding: 6px 15px 24px 13px;
+  margin-top: 81px;
+  margin-left: 60px;
 }
 .box img {
   width: 100%;
@@ -124,7 +123,7 @@ position: absolute;
  }
 
 .box img:hover{
-  transform: scale(2,2);
+  transform: scale(1.1);
   transform: 3%, transform;
 }
 

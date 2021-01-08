@@ -22,14 +22,9 @@ button{
 }
 
 .contact_container{
-  width: 100%;
-    min-height: 100vh;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
     padding: 65px;
-    /* background: #d0e1eb; */
 }
 
 .wrap_contact{
@@ -44,11 +39,11 @@ button{
 }
 
 .contact_form{
-    width: 54%;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 56px 55px 63px 55px;
-    justify-content: center;
+  width: 54%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 50px 0px 49px;
+  justify-content: center;
 }
 
 .form_title{
