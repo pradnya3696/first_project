@@ -14,7 +14,7 @@ const phoneRegex = /^[0-9]{10}$/;
 form.addEventListener('submit', (e) => {
 	e.preventDefault();
 
-	validate();
+	validate();		
 });
 
 function validate(){
